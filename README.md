@@ -9,5 +9,4 @@ API de verificación rápida:
 - `POST /api/libros` agregar
 - `GET /api/libros/buscar?tipo=autor&valor=Torres` buscar por autor (Strategy)
 - `POST /api/libros/{id}/prestar` prestar (Decorator + Observer + auditoría JDBC)
-
 La consola H2 estará disponible en `/h2-console` (JDBC URL `jdbc:h2:mem:biblioteca`).
